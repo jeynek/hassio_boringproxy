@@ -8,6 +8,7 @@ WORKDIR /root
 COPY data .
 
 RUN chmod +x run.sh
-RUN mv boringproxy-linux-arm64 boringproxy && chmod +x boringproxy
+RUN wget https://github.com/boringproxy/boringproxy/releases/download/v0.10.0/boringproxy-linux-arm
+RUN mv boringproxy-linux-arm boringproxy && chmod +x boringproxy
 
 CMD [ "./run.sh" ]
