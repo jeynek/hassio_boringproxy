@@ -1,6 +1,6 @@
 ---
 build_from:
-  armhf: ghcr.io/home-assistant/armv7-base:3.20
+  armv7: ghcr.io/home-assistant/armv7-base:3.20
 codenotary:
   signer: hannpet@gmx.at
   base_image: notary@home-assistant.io
