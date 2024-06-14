@@ -7,7 +7,7 @@ description: Simple client that connects to a BoringProxy-server. A way to give 
 codenotary: notary@home-assistant.io
 advanced: true
 arch:
-  - armhf
+  - armv7
 host_network: true
 options:
   server: myserver.io
