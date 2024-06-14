@@ -13,7 +13,7 @@ options:
   server: myserver.io
   user: admin
   token: 12345678abcdefgh
-  clientid: myhassio
+  clientid: pi
 schema:
   server: str
   user: str
