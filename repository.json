@@ -1,5 +1,5 @@
 {
-    "name": "ha_boringproxy Repository",
-    "url": "https://github.com/hannpet/ha_boringproxy",
-    "maintainer": "@hannpet"
+    "name": "hassio_boringproxy Repository",
+    "url": "https://github.com/jeynek/hassio_boringproxy",
+    "maintainer": "@jeynek"
 }
