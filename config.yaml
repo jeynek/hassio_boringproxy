@@ -1,5 +1,5 @@
 ---
-version: 0.1.4
+version: 0.1.5
 slug: hassio_boringproxy
 name: BoringProxy-client for Home Assistant
 url: https://github.com/jeynek/hassio_boringproxy
@@ -14,10 +14,12 @@ options:
   user: admin
   token: 12345678abcdefgh
   clientid: pi
+  timeout: 10000h
 schema:
   server: str
   user: str
   token: str
   clientid: str
+  timeout: list(3h|4h|5h|6h|24h|72h|10000h)?
 startup: application
 init: false
