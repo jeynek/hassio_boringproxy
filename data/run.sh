@@ -15,7 +15,7 @@ do
   exec /root/boringproxy client \
       -server ${SERVER} \
       -token ${TOKEN} \
-      -client-name ${CLIENTID} \e
+      -client-name ${CLIENTID} \
       -user "${USER}" \
       < /dev/null &
 
