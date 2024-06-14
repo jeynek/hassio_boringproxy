@@ -7,5 +7,3 @@ This is a solution to give a selfhosted HomeAssistant a public IP (provided you 
 Much respect goes to @anderspitman, he is the creator of BoringProxy. Awesome work!
 Please checkout his website [boringproxy.io](https://boringproxy.io)
 
-![Supports armhf Architecture][armhf-shield]
-
